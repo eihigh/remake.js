@@ -1,9 +1,3 @@
-# remake.js
-Minimal SPA/SSR framework
-
-## Basic Usage
-
-```ts
 import { remake, React } from 'remake.js';
 
 function Counter(p: { parent: Element & { count: number } }) {
@@ -18,4 +12,3 @@ function Counter(p: { parent: Element & { count: number } }) {
 }
 
 Counter({ parent: document.body as any });
-```
